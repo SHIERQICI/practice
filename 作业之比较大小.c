@@ -1,38 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-//int da(int x, int y)
-//
-//{
-//
-//	if (x > y)
-//
-//		printf("%d\n", x);
-//
-//	else
-//
-//		printf("%d\n", y);
-//
-//
-//
-//
-//
-//
-//int main()
-//
-//{
-//
-//	int a = 0;
-//
-//	int b = 0;
-//
-//
-//
-//
-//
-//	return 0;
-//
-//}
 
 int bida(int x, int y)
 {
@@ -48,17 +16,17 @@ int main()
 	int a = 0;
 	int b = 0;
 
-	//ÐèÒªÀíÇåË¼Â·¡£ÕâÊÇÒ»´Î¼ÆËã£¬ÐèÒªÊäÈë¡¢¼ÆËã¡¢Êä³ö£¬Èý¸ö²½Öè
-	//ÊäÈë¶à¸öÁ¿£¬ÐèÒªÓÃ&·Ö±ðÔÚÁ¿Ç°Ãæ£¬·ñÔòÊäÈëÊý×ÖÊ±»á³öbug
+	//éœ€è¦ç†æ¸…æ€è·¯ã€‚è¿™æ˜¯ä¸€æ¬¡è®¡ç®—ï¼Œéœ€è¦è¾“å…¥ã€è®¡ç®—ã€è¾“å‡ºï¼Œä¸‰ä¸ªæ­¥éª¤
+	//è¾“å…¥å¤šä¸ªé‡ï¼Œéœ€è¦ç”¨&åˆ†åˆ«åœ¨é‡å‰é¢ï¼Œå¦åˆ™è¾“å…¥æ•°å­—æ—¶ä¼šå‡ºbug
 
-	//ÊäÈë
+	//è¾“å…¥
 	scanf("%d %d", &a, &b);
 
-	//º¯Êý¼ÆËã
+	//å‡½æ•°è®¡ç®—
 	
 	int sum = bida(a, b);
 
-	//Êä³ö´òÓ¡
+	//è¾“å‡ºæ‰“å°
 	printf("%d", sum);
 
 	return 0;
