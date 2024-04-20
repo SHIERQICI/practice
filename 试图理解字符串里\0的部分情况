@@ -1,0 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main()
+{
+	char arr1[5] = "abcde";
+	char arr2[5] = "abcdef";//运行提示了“arr2”: 数组界限溢出//说明字符串的\0可以忽略
+	
+	//strlen arr = sum;
+	//printf("%d\n", sum);
+	return 0;
+}
